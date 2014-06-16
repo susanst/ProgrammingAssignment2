@@ -1,10 +1,8 @@
 
 
-
+makeCacheMatrix <- function(x = matrix()) {
 ## Create a vector which is really a list containing a function to
 ## be used by the cacheSolve function
-
-makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
                 x <<- y
